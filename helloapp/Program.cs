@@ -4,12 +4,24 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello,");
+            greetWhite();
+            greetBlack();
+            greetEveryone();
         }
 
         static void greetWhite()
         {
-            Console.WriteLine("hello everyone");
+            Console.WriteLine("hello white");
+        }
+
+        static void greetBlack()
+        {
+            Console.WriteLine("hello black");
+        }
+
+        static void greetEveryone()
+        {
+            Console.WriteLine("hello everyone");        
         }
     }
 }
